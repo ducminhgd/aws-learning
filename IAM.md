@@ -23,3 +23,11 @@ IAM has three main jobs:
 IAM is provided free, no cost.
 
 IAM only controls local identities of your account.
+
+## Access keys
+
+Long-term credentials on AWS.
+
+Differences to Username & Password:
+1. IAM User has 1 username, and 1 password. An IAM user can have **two access keys**, no more.
+2. Access keys can be created, updated, deactivate or activate.
