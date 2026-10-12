@@ -2,7 +2,7 @@
 type: services
 tags: [services]
 ---
-# Services
+# Service
 
 Public and private services are refering to networking only.
 
