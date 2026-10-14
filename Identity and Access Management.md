@@ -1,8 +1,10 @@
 ---
 type: service
+section: fundamentals
 certs: [CLF, SAA, DVA, SOA]
+tags: [infrastructure, authentication, authorization, fundamentals]
 ---
-# IAM - Identity and Access Management
+# Identity and Access Management (IAM)
 
 It contains 3 types of objects: **Users**, **Groups**, and **Roles**.
 

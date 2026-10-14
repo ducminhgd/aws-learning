@@ -1,5 +1,6 @@
 ---
 type: metadata
+tags: [certs, fundamentals]
 ---
 # AWS Certificates
 

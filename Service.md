@@ -1,6 +1,7 @@
 ---
 type: services
-tags: [services]
+section: fundamentals
+tags: [services, fundamentals]
 ---
 # Service
 

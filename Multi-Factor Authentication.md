@@ -1,8 +1,9 @@
 ---
 type: security
-tags: [security, authentication]
+section: fundamentals
+tags: [security, authentication, fundamentals]
 ---
-# MFA - Multi-Factor Authentication
+# Multi-Factor Authentication (MFA)
 
 **Factors**: different pieces of evidence which prove *identity*. There are some common factors:
 

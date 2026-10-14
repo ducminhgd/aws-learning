@@ -1,6 +1,8 @@
 ---
 type: service
+section: fundamentals
 certs: [CLF, SAA, DVA, SOA]
+tags: [EC2, fundamentals]
 ---
 # Amazon Machine Image (AMI)
 

@@ -1,6 +1,8 @@
 ---
 type: infrastructure
+section: fundamentals
 certs: [CLF, SAA, DVA, SOA]
+tags: [infrastructure, fundamentals]
 ---
 # AWS Infrastructure
 
