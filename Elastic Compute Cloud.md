@@ -2,7 +2,7 @@
 type: service
 section: fundamentals
 certs: [CLF, SAA, DVA, SOA]
-tags: [EC2, services, fundamentals]
+tags: [EC2, services, fundamentals, regional]
 ---
 # Elastic Compute Cloud (EC2)
 

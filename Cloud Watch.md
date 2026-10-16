@@ -2,7 +2,7 @@
 type: service
 section: fundamentals
 certs: [CLF, SAA, DVA, SOA]
-tags: [infrastructure, observability, fundamentals]
+tags: [infrastructure, observability, fundamentals, regional]
 ---
 # Cloud Watch
 

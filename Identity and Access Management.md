@@ -2,7 +2,7 @@
 type: service
 section: fundamentals
 certs: [CLF, SAA, DVA, SOA]
-tags: [infrastructure, authentication, authorization, fundamentals]
+tags: [infrastructure, authentication, authorization, fundamentals, global]
 ---
 # Identity and Access Management (IAM)
 
