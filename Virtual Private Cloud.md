@@ -1,7 +1,7 @@
 ---
 type: infrastructure
 certs: [CLF, SAA, DVA, SOA]
-tags: [infrastructure, network, fundamentals]
+tags: [infrastructure, network, fundamentals, regional]
 ---
 # Virtual Private Cloud (VPC)
 
