@@ -33,3 +33,29 @@ Long-term credentials on AWS.
 Differences to Username & Password:
 1. IAM User has 1 username, and 1 password. An IAM user can have **two access keys**, no more.
 2. Access keys can be created, updated, deactivate or activate.
+
+## [[Policies]]
+
+Policies are attached to [[identities]] inside AWS.
+
+Grant [[access]] or deny [[access]] by one or more [[statement]]s in IAM policy documents, which are in JSON Format.
+
+A [[statement]] contains:
+- `Sid`: statement ID
+- `Effect`: [[Allow]] or [[Deny]]
+- `Action`: a list of actions, whose formats are `<server>:<action>`, or _wildcard_ formats.
+- `Resource`: a list of resources, URI or wildcard.
+
+The order or the priority:
+1. Explicit [[Deny]]
+2. Explicit [[Allow]]
+3. Default (implicit) [[Deny]]
+
+There are two types of policies:
+- **Inline Policies**: apply [[JSON]] documents for each accounts. We should use this for exceptional Allow or Deny.
+- **Managed Policies**:
+  - Can be reusable.
+  - Help to low management overhead.
+- There are two sub-types:
+  - AWS Manage policies.
+  - Customized policies.
