@@ -59,3 +59,27 @@ There are two types of policies:
 - There are two sub-types:
   - AWS Manage policies.
   - Customized policies.
+
+## IAM Users
+
+IAM Users are an identity used for anything requiring **long-term** AWS access, e.g _Humans_, _Applications_, or _Service accounts_
+
+A **Principal** can be a user or an application.
+
+[[Authentication]] is a process to proove a _principal_ is what it claims to be.
+
+[[Authorization]] is checking the [[statement]]s.
+
+## Other notes
+
+### Limit of account and group
+
+An AWS account can has only **5,000 IAM users** in maximum.
+
+An IAM User can be member of **max 10 groups**.
+
+If you meet that limitations, you can fix by using IAM [[Roles]] & [[Identity Federation]].
+
+## Read more
+
+- [[Amazon Resource Name]] or [[ARN]]
